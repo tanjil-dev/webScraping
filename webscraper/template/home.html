@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Corona Update Bangladesh</h1>
+<ul>
+{% for d in date %}
+    <li><span>Today: </span>{{ d }}</li>
+{% endfor %}
+{% for w in web %}
+    <li>{{ w }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
